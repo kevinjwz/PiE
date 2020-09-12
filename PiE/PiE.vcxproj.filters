@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\bigfp">
+      <UniqueIdentifier>{a5d33153-10e7-47f6-bd62-06bca9e10fc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\pi">
+      <UniqueIdentifier>{797fc3da-5cee-4bdd-8916-5cc57e7c9274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\bigint">
+      <UniqueIdentifier>{951c699d-1e41-414a-825c-0548d1f192fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\mul_karatsuba">
+      <UniqueIdentifier>{d2d555e1-c494-4313-8c81-470de9a0102a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\mul_ssa">
+      <UniqueIdentifier>{b14266a1-fd8d-42e2-8066-5e546593c861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\mul_fft_dwt">
+      <UniqueIdentifier>{57fb3afc-34e3-4304-a093-042561768d84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\helpers">
+      <UniqueIdentifier>{4b007995-8b08-45b3-8c8f-ace85087b11f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\parse_unparse">
+      <UniqueIdentifier>{518889ec-a8fa-4e95-8f3d-e2021889d1dc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bigfp_add_sub.cpp">
+      <Filter>源文件\bigfp</Filter>
+    </ClCompile>
+    <ClCompile Include="bigfp_mul.cpp">
+      <Filter>源文件\bigfp</Filter>
+    </ClCompile>
+    <ClCompile Include="bigfp_div_newton.cpp">
+      <Filter>源文件\bigfp</Filter>
+    </ClCompile>
+    <ClCompile Include="bigfp_tools.cpp">
+      <Filter>源文件\bigfp</Filter>
+    </ClCompile>
+    <ClCompile Include="bigfp_tests.cpp">
+      <Filter>源文件\bigfp</Filter>
+    </ClCompile>
+    <ClCompile Include="bigfp_rsqrt.cpp">
+      <Filter>源文件\bigfp</Filter>
+    </ClCompile>
+    <ClCompile Include="pi_agm.cpp">
+      <Filter>源文件\pi</Filter>
+    </ClCompile>
+    <ClCompile Include="array_basic_arith.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bigint_basic_arith.cpp">
+      <Filter>源文件\bigint</Filter>
+    </ClCompile>
+    <ClCompile Include="bigint_mul_auto.cpp">
+      <Filter>源文件\bigint</Filter>
+    </ClCompile>
+    <ClCompile Include="mul_karatsuba.cpp">
+      <Filter>源文件\mul_karatsuba</Filter>
+    </ClCompile>
+    <ClCompile Include="mul_karatsuba_p2.cpp">
+      <Filter>源文件\mul_karatsuba</Filter>
+    </ClCompile>
+    <ClCompile Include="mul_karatsuba_prototype.cpp">
+      <Filter>源文件\mul_karatsuba</Filter>
+    </ClCompile>
+    <ClCompile Include="array_helpers.cpp">
+      <Filter>源文件\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="fft_rad2_rad4.cpp">
+      <Filter>源文件\mul_fft_dwt</Filter>
+    </ClCompile>
+    <ClCompile Include="fft_tests.cpp">
+      <Filter>源文件\mul_fft_dwt</Filter>
+    </ClCompile>
+    <ClCompile Include="mul_ssa.cpp">
+      <Filter>源文件\mul_ssa</Filter>
+    </ClCompile>
+    <ClCompile Include="mul_fft_dwt.cpp">
+      <Filter>源文件\mul_fft_dwt</Filter>
+    </ClCompile>
+    <ClCompile Include="bigint_tests.cpp">
+      <Filter>源文件\bigint</Filter>
+    </ClCompile>
+    <ClCompile Include="bigint_div.cpp">
+      <Filter>源文件\bigint</Filter>
+    </ClCompile>
+    <ClCompile Include="bigfp_unparse.cpp">
+      <Filter>源文件\parse_unparse</Filter>
+    </ClCompile>
+    <ClCompile Include="bigint_tmpl_tools.inl">
+      <Filter>源文件\bigint</Filter>
+    </ClCompile>
+    <ClCompile Include="bigfp_div_mod.cpp">
+      <Filter>源文件\bigfp</Filter>
+    </ClCompile>
+    <ClCompile Include="integer_parse_unparse.cpp">
+      <Filter>源文件\parse_unparse</Filter>
+    </ClCompile>
+    <ClCompile Include="pi_format.cpp">
+      <Filter>源文件\pi</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bigint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bigfp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="int128.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="array_basic_arith.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="array_helpers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mul_karatsuba.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mul_ssa.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fft_rad2_rad4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fft_constants.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mul_fft_dwt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="readonly_span.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="parse_unparse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dcomplex_sse.inl">
+      <Filter>源文件\mul_fft_dwt</Filter>
+    </None>
+    <None Include="dcomplex.inl">
+      <Filter>源文件\mul_fft_dwt</Filter>
+    </None>
+    <None Include="micro_helpers.inl">
+      <Filter>源文件\helpers</Filter>
+    </None>
+    <None Include="bigfp_tmpl_tools.inl">
+      <Filter>源文件\bigfp</Filter>
+    </None>
+  </ItemGroup>
+</Project>
